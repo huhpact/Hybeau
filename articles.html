@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Articles - Hybeau</title>
+    <meta name="description" content="Browse all technology articles, filter by category, and search for specific topics on TechForward.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/components.css">
+    <link rel="stylesheet" href="/css/resp.css">
+    <link rel="stylesheet" href="/css/articles.css">
+		<link rel="icon" type="image/png" href="/images/favicon-96x96.png" sizes="96x96" />
+		<link rel="icon" type="image/svg+xml" href="/images/favicon.svg" />
+		<link rel="shortcut icon" href="/images/favicon.ico" />
+		<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png" />
+		<meta name="apple-mobile-web-app-title" content="Hybeau" />
+		<link rel="manifest" href="/images/site.webmanifest" />
+		<link rel="icon" href="/images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="header header-minimal">
+        <nav class="nav container">
+            <div class="nav-brand">
+                <img src="/images/logo.png" alt="Haiberg Logo" class="logo" onclick="window.location.href='index.html'">
+                <span class="brand-name">Hybeau</span>
+            </div>
+            
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="#" class="nav-link active">Articles</a></li>
+                <li><a href="index.html#about" class="nav-link">About</a></li>
+                <li><a href="/index.html#contact" class="nav-link">Contact</a></li>
+            </ul>
+            
+            <button class="mobile-menu-toggle" aria-label="Toggle mobile menu">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+        </nav>
+        
+        <div class="mobile-sidebar">
+            <div class="mobile-sidebar-content">
+                <button class="mobile-sidebar-close" aria-label="Close mobile menu">
+                    <i class="fas fa-times"></i>
+                </button>
+                <ul class="mobile-nav-menu">
+                    <li><a href="index.html" class="mobile-nav-link">Home</a></li>
+                    <li><a href="#" class="mobile-nav-link">Articles</a></li>
+                    <li><a href="index.html#about" class="mobile-nav-link">About</a></li>
+                    <li><a href="/index.html#contact" class="mobile-nav-link">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="mobile-sidebar-overlay"></div>
+    </header>
+
+    <main class="articles-main">
+        <section class="articles-header">
+            <div class="container">
+                <h1 class="articles-title">All Articles</h1>
+                <p class="articles-subtitle">
+                    Discover the latest insights in technology, from iPhone innovations to AI breakthroughs
+                </p>
+            </div>
+        </section>
+
+        <section class="articles-controls">
+            <div class="container">
+                <div class="search-filter-bar">
+                    <div class="search-box">
+                        <i class="fas fa-search"></i>
+                        <input type="text" placeholder="Search articles..." id="searchInput">
+                    </div>
+                    <div class="filter-buttons">
+                        <button class="filter-btn active" data-category="all">All</button>
+                        <button class="filter-btn" data-category="iphone">iPhone</button>
+                        <button class="filter-btn" data-category="ios">iOS</button>
+                        <button class="filter-btn" data-category="mac">Mac</button>
+                        <button class="filter-btn" data-category="ai">AI</button>
+                        <button class="filter-btn" data-category="software">Software</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="articles-content">
+            <div class="container">
+                <div class="articles-grid" id="articlesGrid"></div>
+                <div class="load-more-container">
+                    <button class="btn btn-outline" id="loadMoreBtn">Load More Articles</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-simple">
+                <div class="footer-brand">
+                    <img src="/images/logo.png" alt="Hybeau Logo" class="footer-logo">
+                    <span class="footer-brand-name">Hybeau</span>
+                </div>
+                <div class="footer-links">
+                    <a href="index.html#about">About</a>
+                    <a href="/index.html#contact">Contact</a>
+                    <a href="/privacy.html">Privacy</a>
+                    <a href="/terms.html">Terms</a>
+                </div>
+                <div class="footer-social">
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-pinterest"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Hybeau. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/js/main.js"></script>
+    <script src="/js/articles.js"></script>
+</body>
+</html>
