@@ -12,6 +12,16 @@ const articlesData = [
     date: "August 26, 2025",
         readTime: "9 min read",
         link: "articles/iphone-17-news.html"
+    },
+     {
+        id: 2,
+        title: "Apple’s “Awe Dropping” Event 2025: Date, Time, and What to Expect",
+        excerpt: "It’s official: Apple’s September keynote lands on September 9, 2025. Here’s the fast, friendly rundown of when to watch, what that playful invite hints at, and the headline reveals we expect on the night.",
+        category: "Apple",
+        image: "/images/ae.jpg",
+    date: "August 30, 2025",
+        readTime: "6 min read",
+        link: "articles/apple-event-2025.html"
     }
 ];
 
