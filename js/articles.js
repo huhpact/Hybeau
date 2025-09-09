@@ -3,8 +3,28 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 const articlesData = [
-    {
+     {
         id: 1,
+        title: "Apple’s “Awe Dropping” Event 2025: Full Recap — iPhone 17 Air, AirPods Pro 3, Watch Ultra 3 & iOS 26",
+        excerpt: "Complete recap of Apple's 'Awe Dropping' keynote (September 9, 2025): ultra-thin iPhone 17 Air, full iPhone 17 lineup, Apple Watch Series 11 & Ultra 3, AirPods Pro 3, iOS 26 and Apple Intelligence — specs, pricing, availability, and analysis.",
+        category: "iphone",
+        image: "/images/air.jpg",
+    date: "September 9, 2025",
+        readTime: "11 min read",
+        link: "articles/apple-event-recap.html"
+    },
+      {
+        id: 2,
+        title: "Apple’s “Awe Dropping” Event 2025: Date, Time, and What to Expect",
+        excerpt: "It’s official: Apple’s September keynote lands on September 9, 2025. Here’s the fast, friendly rundown of when to watch, what that playful invite hints at, and the headline reveals we expect on the night.",
+        category: "iphone",
+        image: "/images/ae.jpg",
+    date: "August 30, 2025",
+        readTime: "6 min read",
+        link: "articles/apple-event-2025.html"
+    },
+    {
+        id: 3,
         title: "iPhone 17 Lineup Leaks: Ultra-Thin Air, Pro Camera Revamp & Reverse Charging",
         excerpt: "A roundup of the most consistent iPhone 17, 17 Air, and 17 Pro/Pro Max leaks—ultra-thin design, ProMotion across the lineup, new camera layouts, and the long-rumored reverse wireless charging.",
         category: "iphone",
@@ -13,16 +33,8 @@ const articlesData = [
         readTime: "9 min read",
         link: "articles/iphone-17-news.html"
     },
-     {
-        id: 2,
-        title: "Apple’s “Awe Dropping” Event 2025: Date, Time, and What to Expect",
-        excerpt: "It’s official: Apple’s September keynote lands on September 9, 2025. Here’s the fast, friendly rundown of when to watch, what that playful invite hints at, and the headline reveals we expect on the night.",
-        category: "Apple",
-        image: "/images/ae.jpg",
-    date: "August 30, 2025",
-        readTime: "6 min read",
-        link: "articles/apple-event-2025.html"
-    }
+   
+    
 ];
 
 let currentArticles = [...articlesData];
