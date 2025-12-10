@@ -3,8 +3,18 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 const articlesData = [
-    {
+     {
         id: 1,
+        title: "The Ultimate Messenger Showdown: Telegram vs. WhatsApp vs. Signal",
+        excerpt: " A protocol-by-protocol, feature-by-feature dissection of the three titans of digital communication to determine where your data is safest.",
+        category: "software",
+        image: "/images/wasite.webp",
+    date: "December 10, 2025",
+        readTime: "20 min read",
+        link: "articles/ultimate-messenger-showdown-2025.html"
+    },
+    {
+        id: 2,
         title: "U.S. 100% Tariffs on Chinese Imports: Impact on Apple, Samsung & Global Tech",
         excerpt: "An unprecedented escalation: The U.S. will impose 100% tariffs on Chinese imports starting November 1, 2025. Analysis of what it means for Apple, Samsung, and global tech supply chains.",
         category: "tech",
@@ -14,7 +24,7 @@ const articlesData = [
         link: "articles/us-china-tariff-2025.html"
     },
      {
-        id: 2,
+        id: 3,
         title: "Apple’s “Awe Dropping” Event 2025: Full Recap — iPhone 17 Air, AirPods Pro 3, Watch Ultra 3 & iOS 26",
         excerpt: "Complete recap of Apple's 'Awe Dropping' keynote (September 9, 2025): ultra-thin iPhone 17 Air, full iPhone 17 lineup, Apple Watch Series 11 & Ultra 3, AirPods Pro 3, iOS 26 and Apple Intelligence — specs, pricing, availability, and analysis.",
         category: "iphone",
@@ -24,7 +34,7 @@ const articlesData = [
         link: "articles/apple-event-recap.html"
     },
       {
-        id: 3,
+        id: 4,
         title: "Apple’s “Awe Dropping” Event 2025: Date, Time, and What to Expect",
         excerpt: "It’s official: Apple’s September keynote lands on September 9, 2025. Here’s the fast, friendly rundown of when to watch, what that playful invite hints at, and the headline reveals we expect on the night.",
         category: "iphone",
@@ -34,7 +44,7 @@ const articlesData = [
         link: "articles/apple-event-2025.html"
     },
     {
-        id: 4,
+        id: 5,
         title: "iPhone 17 Lineup Leaks: Ultra-Thin Air, Pro Camera Revamp & Reverse Charging",
         excerpt: "A roundup of the most consistent iPhone 17, 17 Air, and 17 Pro/Pro Max leaks—ultra-thin design, ProMotion across the lineup, new camera layouts, and the long-rumored reverse wireless charging.",
         category: "iphone",
@@ -42,7 +52,7 @@ const articlesData = [
     date: "August 26, 2025",
         readTime: "9 min read",
         link: "articles/iphone-17-news.html"
-    },
+    }
    
     
 ];
